@@ -1,0 +1,18 @@
+body {
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+nav ul li {
+    margin: 5px;
+    padding-left: 20px;
+}
+
+#aboutme {
+    flex-direction: column;
+    text-align: center;
+}

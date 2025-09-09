@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonthu Poojitha - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="home">
+        <nav class="nav-solid">
+            <h1 class="logo">Bonthu Poojitha</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Bonthu Poojitha</h1>
+                <p>Passionate Learner and Aspiring Developer</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="Picture.jpg" alt="Bonthu Poojitha Profile">
+                </div>
+                <div class="about-text">
+                    <h2>ABOUT ME</h2>
+                    <p class="intro">Hi, I'm Bonthu Poojitha</p>
+                    <p>Hello and welcome to my portfolio! I completed my secondary education at Rajadhani High School in 2020 with a score of 100%. Following this, I pursued an M.P.C. program in intermediate education, achieving a 98.4% score in 2022. Currently, I am pursuing my Undergraduation in Computer Science and Engineering from B V Raju Institute of Technology with a CGPA of 9.1.</p>
+                    <p>I have good knowledge in programming languages like C, Java, HTML, CSS, and JavaScript. I have also created user interfaces in Figma. With these skills, I have done projects like banking fraud detection using machine learning techniques and a nutrition meal planning web application.</p>
+                    <p>I enjoy reading books, listening to music, volunteering, and managing events, where I get to work with different people and enhance my skills.</p>
+                    <p>You can find my detailed resume attached here — feel free to check it out!</p>
+                    <a href="https://drive.google.com/file/d/1wE_2wi56LAeBIJM7361uwM6ahQ-wZY2e/view?usp=sharing" target="_blank" class="btn resume-btn">View My Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding">
+            <h2>PROJECTS & ACHIEVEMENTS</h2>
+            <div class="tab-container">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="hackathon">Hackathon</button>
+                    <button class="tab-button" data-tab="my-projects">Projects</button>
+                    <button class="tab-button" data-tab="internship">Internship</button>
+                </div>
+                <div class="tab-content">
+
+                    <!-- Hackathon -->
+                    <div id="hackathon" class="projects-container active-tab">
+                        <div class="project-card center-card">
+                            <h3>Hackathon: Ayush Portal</h3>
+                            <div class="project-images-scroll">
+                                <img class="project-image" src="portal.png" alt="Ayush Portal Image">
+                                <img class="project-image" src="application.png" alt="Ayush Portal Image">
+                                <img class="project-image" src="/web.png" alt="Ayush Portal Image">
+                                <img class="project-image" src="/ayush.png" alt="Ayush Portal Image">
+                                
+                                <!-- <img class="project-image" src="portal.png" alt="Ayush Portal Image"> -->
+                            </div>
+                            <p>A streamlined platform enhancing the registration process for startups in the Ayush sector. Features a user-friendly interface, domain-specific registration, AI chatbot support, and multilingual interface for accessibility and efficiency.</p>
+                            <div class="project-links">
+                                <a href="YOUR_AYUSH_VIDEO_LINK" target="_blank" class="btn">Project Video</a>
+                                <a href="YOUR_AYUSH_GITHUB_LINK" target="_blank" class="btn">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projects -->
+                    <div id="my-projects" class="projects-container">
+                        <div class="project-card">
+                            <h3>Project: Banking Fraud Detection</h3>
+                            <div class="project-images-scroll">
+                                <img class="project-image" src="Fraud1.jpg" alt="Banking Fraud Detection Output 1">
+                                <img class="project-image" src="Fraud2.jpg" alt="Banking Fraud Detection Output 2">
+                                <img class="project-image" src="Fraud3.jpg" alt="Fraud Detection Image 1">
+                                <img class="project-image" src="Evaluationmetrics.jpg" alt="Fraud Detection Image 2">
+                                <img class="project-image" src="Graph.jpg" alt="Fraud Detection Image 3">
+                            </div>
+                            <p>This project uses machine learning algorithms to detect fraudulent banking transactions and improve security.
+                                <br><strong>Tech Stack:</strong> Python, Scikit-learn, Pandas, Matplotlib</p>
+                            <div class="project-links">
+                                <a href="https://github.com/pooji1002/Banking-Fraud-Detection" target="_blank" class="btn">GitHub Repo</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>Project: RecipeFit</h3>
+                            <img class="project-image" src="/rfit.JPG" alt="Banking Fraud Detection Output 1">
+                            <p>An AI-powered web application for creating,searching,and managing recipes with advanced filters.Offers personalized meal planning and workout recommendations.
+                                <br><strong>Tech Stack:</strong>React,Springboot,Mysql</p>
+                            <div class="project-links">
+                                <a href="Recipe_Fit.mp4" target="_blank" class="btn">Project Video</a>
+                                <a href="https://github.com/pooji1002/RecipeFit" target="_blank" class="btn">GitHub Repo</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>Project: The Viora – Handicraft E-Commerce Website</h3>
+                            <img class="project-image" src="/vin.jpg" alt="Banking Fraud Detection Output 1">
+                            <p>A full-stack e-commerce platform for artisans to sell handmade products, designed with Figma.
+                                <br><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript, Firebase for authentication</p>
+                            <div class="project-links">
+                                <a href="Viora_UI.mp4" target="_blank" class="btn">Project Video</a>
+                                <a href="https://github.com/pooji1002/Viora" target="_blank" class="btn">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internship -->
+                    <div id="internship" class="projects-container">
+                        <div class="project-card">
+                            <h3>Internship: RouteGenius – AI-Optimized Logistics & Delivery Management</h3>
+                            <img class="project-image" src="/rmax.jpg" alt="Banking Fraud Detection Output 1">
+                            <h4>Java Developer Intern</h4>
+                            <p>A logistics solution for packers & movers using <strong>Java</strong>. Optimizes routes with AI and includes modules for user management, real-time tracking, and notifications.</p>
+                            <div class="project-links">
+                                <a href="/Certificate2.jpg" target="_blank" class="btn">View Certificate</a>
+                                <a href="https://github.com/pooji1002/RouteMax-Efficient-Logistics-Management-Solution" target="_blank" class="btn">GitHub Repo</a>
+                                <a href="Routemax.mp4" target="_blank" class="btn">Project Video</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>Internship: The Viora – Handicraft E-Commerce Website</h3>
+                            <img class="project-image" src="/vintage.jpg" alt="Banking Fraud Detection Output 1">
+                            <h4>Frontend Developer Intern</h4>
+                            <p>Full-stack e-commerce platform for artisans built with <strong>HTML5, CSS3, JavaScript, and Firebase</strong>. Features authentication, wishlist, cart management, and seamless checkout.</p>
+                            <div class="project-links">
+                                <a href="Certificate1.jpg" target="_blank" class="btn">View Certificate</a>
+                                <a href="https://github.com/pooji1002/Viora" target="_blank" class="btn">GitHub Repo</a>
+                                <a href="Viora.mp4" target="_blank" class="btn">Project Video</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <h2>CONTACT</h2>
+            <div class="contact-container">
+                <div class="contact-form-container">
+                    <h3>Get in Touch</h3>
+                    <form action="#" method="POST" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>My Contact Information</h3>
+                    <p><i class="fas fa-phone"></i> +91 9000374269</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:bonthupoojitha1004@gmail.com">bonthupoojitha1004@gmail.com</a></p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/bonthu-poojitha-7241842b6" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/pooji1002" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Bonthu Poojitha. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Modal for Enlarged Project Image -->
+    <div id="image-modal" class="modal-overlay">
+        <span class="modal-close">&times;</span>
+        <img id="modal-image" src="" alt="Enlarged Project Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
